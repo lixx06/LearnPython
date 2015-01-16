@@ -9,7 +9,7 @@ try:
 	print "cPickle module imported"
 except ImportError:
 	import pickle
-	print "picled module imported"
+	print "pickle module imported"
 
 AccountTable = dict()
 SaveAccountDataPath = "AccountData.txt"
