@@ -9,8 +9,6 @@ import hashlib
 import os
 import sqlite3
 
-AccountTable = dict()
-SaveAccountDataPath = "AccountData.txt"
 AccountTail = "Add_Salt"
 
 def get_pre_code(account, password):
